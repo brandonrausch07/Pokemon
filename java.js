@@ -1,4 +1,6 @@
-fetchData();
+async function fetchData(){
+
+
 
 try{
 
@@ -18,6 +20,7 @@ try{
 }
 catch(error){
     console.error(error);
+   }
 }
 
 
